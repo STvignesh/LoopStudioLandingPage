@@ -25,7 +25,7 @@ const observer = new IntersectionObserver(
     });
   },
   {
-    threshold: 0.1,
+    threshold: 0.2,
   }
 );
 hiddens.forEach((hidden) => {
